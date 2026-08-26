@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Output 1</title>
+    <title>PHP output 1</title>
     <style>
         body {
-            font-family: "Arial";
+           font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+             background-color: gray;
         }
+        
+        
     </style>
 </head>
 <body>
-    <h1>PHP Output No. 1</h1>
+    <h1>PHP Output NO. 1</h1>
     
     <fieldset>
         <legend>This form uses GET request</legend>
@@ -36,7 +39,37 @@
                 </td>
             </tr>
             <tr>
-                <td></td>
+                <td>Age</td>
+                <td>
+                    <input type="text" name="age" placeholder="Enter your Age" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="text" name="gender" placeholder="Enter your Gender" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="text" name="email" placeholder="Enter your Email" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <input type="text" name="address" placeholder="Enter Address" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Contact Number</td>
+                <td>
+                    <input type="integer" name="cnumber" placeholder="Enter Contact Number" required />
+                </td>
+            </tr>
+                
+                <td>
                 <td>
                     <input type="submit" value="Submit Data">
                     <input type="reset" value="Cancel">
@@ -57,7 +90,7 @@
                 </td>
             </tr>
             <tr>
-                <td>Middle Name</td>
+                <td>Middle Name </td>
                 <td>
                     <input type="text" name="mname" placeholder="Enter Middle Name" required />
                 </td>
@@ -66,6 +99,36 @@
                 <td>Last Name</td>
                 <td>
                     <input type="text" name="lname" placeholder="Enter Last Name" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>
+                    <input type="text" name="age" placeholder="Enter your Age" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="text" name="gender" placeholder="Enter your Gender" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="text" name="email" placeholder="Enter your Email" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <input type="text" name="address" placeholder="Enter Address" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Contact Number</td>
+                <td>
+                    <input type="integer" name="cnumber" placeholder="Enter Contact Number" required />
                 </td>
             </tr>
             <tr>
